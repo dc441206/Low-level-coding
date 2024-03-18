@@ -1,0 +1,11 @@
+=====================
+ What You've Learned
+=====================
+
+# You have worked out how to traverse an 'array of character pointers',
+  and printed out the 'C string' which each of them points to.
+
+# You have acquired a copy of the program's machine-environment 
+  This included a username, shell identity, ..., ...
+  
+# You have learned about program exit codes, and how to print/use them.

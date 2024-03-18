@@ -1,0 +1,34 @@
+ ,--------------------------.
+(  The First Evil Challenge  )
+ `--------------------------'
+
+There are, essentially, two ways you could have cracked challenge #2
+
+Either with an integer value {int, long, long long, unsigned char, ...}
+Or with a pointer/indirection (anything with a *)
+
+Given my target audience, I am going to assume you used an 'int'
+Ie. You DIDN'T opt to try and do it with a double-indirection pointer
+    ...If you did ...Kudos! :) ...Try doing it with an 'int' loop ;)
+
+ ,---------------.
+(  Evil - Part 1  )
+ `---------------'
+
+Make a copy of your latest code:  `cp  hello2a.c  evil1.c`
+
+Declare a variable called 'ptr' which can hold a copy of 'envp'
+...and put a copy of 'envp' in it.
+
+You line will look like this:
+	________ ptr = envp;
+
+** You MAY NOT edit ANY part of the first line:
+		int  main (...)
+
+We will NOT use this variable in Part 1, 
+...remember to tell the compiler this is deliberate!
+	
+Compile your program (with Error Checking enabled!) [[see above]]
+
+...We do not need to run this to test it. If it compiles, you got it right!

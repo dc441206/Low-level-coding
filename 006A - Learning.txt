@@ -1,0 +1,17 @@
+=====================
+ What You've Learned
+=====================
+
+If you actually understand** the code you've just written, then:
+
+# You've learned the difference between constant pointers and constant data
+
+...It might not seem much - and you might not realise it yet - 
+   but you are getting your first glimpse of how programs use your RAM chips,
+   something MANY programmers, and MOST developers have no understading of.
+
+** If you just:
+   a) kept trying differernt combinations until you got lucky
+   or b) cut'n'paste it from "somewhere"
+   ...Then you probably didn't learn anything of any great value.
+      But do take consolation with the "$kr1pt-k1dd13" badge of "Yay. Me lucky"

@@ -1,0 +1,35 @@
+ ,----------------------.
+(  Your First Challenge  )
+ `----------------------'
+
+Let's get the compiler to do some error checking for us:
+
+ ,----------------.
+(  Hello - Part 1  )
+ `----------------'
+
+Make a copy of your latest code:  `cp  hello.c  hello1a.c`
+
+Try to compile your program again ...this time replace "-w" with "-Werror"
+	`rm -f  hello  ;  gcc -Werror  hello1a.c  -o hello`
+
+You should get TWO errors
+
+** Edit your program so it does not produce these errrors
+	You MAY NOT edit ANY part of the first line:
+		int  main (...)
+
+ ,----------------.
+(  Hello - Part 2  )
+ `----------------'
+
+Make a copy of your latest code:  `cp  hello1a.c  hello1b.c`
+
+Try to compile your program again ...this time add "-Wall -Wextra":
+	`rm -f  hello  ;  gcc -Werror -Wall -Wextra  hello1b.c  -o hello`
+
+You should get TWO MORE errors.
+
+** Edit your program so it does not produce these (new) errrors
+	You MAY NOT edit ANY part of the first line:
+		int  main (...)

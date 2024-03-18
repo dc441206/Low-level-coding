@@ -1,0 +1,15 @@
+=====================
+ What You've Learned
+=====================
+
+# How to use Pointer Indirection
+
+# You've also started your journey in to the powerful world of "Pointer Maths"
+   
+This is not "difficult because you are new to this"; this is "difficult".
+And you now have your first insight as to where many security flaws come from:-
+	a) how difficult it is to get pointers right
+	b) how easy it is to get them wrong
+	c) why you make good use of your compiler's error checking
+You've probably seen a lot of "segfault"s by now, and possibly untold amounts of 
+garbage flying up your screen ...The gems, a hacker goes hunting for ;)

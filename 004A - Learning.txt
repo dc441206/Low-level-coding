@@ -1,0 +1,21 @@
+=====================
+ What You've Learned
+=====================
+
+# If you don't tell your compiler to keep you informed about well-known
+  programming mistakes ...It won't!
+  ...and sooner-or-later you WILL regret not making the most of your compiler!
+  ...Or, more to the point: The manufacturer of the device you are hacking is
+     about to start wishing THEY had made the most of THEIR compiler.
+
+# You know that envp is the third argument to main() - most people don't
+  If, as an attacker, you manage to get control of this variable,
+  you get to see some of the server configuration.
+
+# You know how to use library functions, 
+  and make sure you request the right ones.
+  ...Rather than leave it to the compiler to decide,
+     and just "hope" it chooses the one you expected!
+
+# You know how to tell the compiler that you KNOW there is an unused variable
+  in your code, and you have actively decided that it is acceptable.

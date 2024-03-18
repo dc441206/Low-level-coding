@@ -1,0 +1,22 @@
+ ,----------------------.
+(  Your First C Program  )
+ `----------------------'
+
+Let's just make sure it's all working...
+
+Without explanation (at this point) cut'n'paste this code in to a text file
+and save it somewhere sensible as "hello.c"
+
+-[hello.c]------ >-8 ------------------- >-8 ------------------
+int  main (const int argc,  const char* const argv[],  const char* const envp[])
+{
+    printf("hello world\n");
+    printf("%s\n", envp[0]);
+}
+---------------- >-8 ------------------- >-8 ------------------
+
+Get to your Linux command line and type:
+	`rm -f  hello  ;  gcc -w  hello.c  -o hello`
+
+If all is working you should have just created a program called hello;
+which you can now run by typing:  `./hello`

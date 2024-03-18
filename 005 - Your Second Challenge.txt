@@ -1,0 +1,17 @@
+ ,-----------------------.
+(  Your Second Challenge  )
+ `-----------------------'
+
+Make a copy of your latest code:  `cp  hello1b.c  hello2a.c`
+
+Replace the second line
+    printf("%s\n", envp[0]);
+...with a loop which prints ALL of the environment variables
+
+...And make sure the program always exits with errorcode: 188
+
+Compile your program (with Error Checking enabled!)
+	`rm -f  hello  ;  gcc -Werror -Wall -Wextra  hello2a.c  -o hello`
+
+Run your program, and check the errorcode (aka. "errorlevel", or "exit code")
+	`./hello  ;  echo $?`

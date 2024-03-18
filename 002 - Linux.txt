@@ -1,0 +1,34 @@
+ ,-------.
+(  Linux  )
+ `-------'
+
+Do you have access to a Linux PC/VM/server/etc.?
+
+Yes? Great. Go down to the bit about installing packages.
+
+No? You are going to need one.
+
+Options include:
+# Cygwin - a bit old-skool now
+# WSL - and choose: Debian
+# Install Debain on an old laptop - any working laptop will be powerful enough
+# Install VirtualBox and find an official Debian Image for it
+# Raspberry Pi (any except "Pico")
+
+If you think Arch or Gentoo is better than Debian, go for it
+...but bear in mind, you will be on-your-own if you run in to problems.
+
+You will NOT *require* a desktop (such as GNOME or KDE) - but you may like 
+to use one ...I do not use one, so again, problems here are out of scope.
+
+ ,------------------.
+(  Install Packages  )
+ `------------------'
+
+In Debian. At the command prompt. As root. Type:
+	apt-get update
+	apt-get upgrade
+	apt-get install build-essential
+
+If you are NOT using Debian, you may need to cast a different incantation to 
+install the packages included in Debian's build-essential toolkit.  pacman?

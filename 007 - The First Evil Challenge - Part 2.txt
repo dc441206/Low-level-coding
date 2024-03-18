@@ -1,0 +1,10 @@
+ ,---------------.
+(  Evil - Part 2  )
+ `---------------'
+
+Make a copy of your latest code:  `cp  evil1.c  evil2.c`
+
+Rewrite your loop (which currently uses and 'int') to use 'ptr' instead
+
+Compile your program (with Error Checking enabled!) [[see above]]
+...run it ...and make sure it exists with errorcode 188
